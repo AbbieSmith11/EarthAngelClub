@@ -1,2 +1,2 @@
 # EarthAngelClub
-A website connected to a Pinterest account
+A website connected to my Pinterest account
