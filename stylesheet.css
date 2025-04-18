@@ -294,6 +294,7 @@ nav {
 
 #one img:hover, #two img:hover, #three img:hover{
   cursor: url('Images/wand-click.PNG') 31 1, auto;
+  z-index: 10;
 }
 
 #one, #two, #three{
@@ -360,4 +361,13 @@ padding-bottom: 3rem;
 #h1v2 {
   font-weight: 500;
   font-size: 2rem;
+}
+
+
+/* FOOTER */
+
+footer {
+  height: 20%;
+  display: flex;
+  justify-content: center;
 }
