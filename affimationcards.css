@@ -1,0 +1,224 @@
+/*
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+  .montecarlo-regular {
+  font-family: "MonteCarlo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*/
+
+hr {
+    border: none; 
+    border-top: 0.07rem solid #33272a; 
+    width: 100%; 
+  }
+
+* {
+    font-family: "Playfair Display", serif;
+    margin: 0%;
+    font-weight: 400;
+    cursor: url('Images/wand.PNG') 31 1, auto;
+    color: #33272a;
+}
+
+.spacing {
+  height: 2vh;
+}
+
+body {
+  font-size: 1.5rem;
+  background-color: #fff7f8;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: #33272a;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+h2 {
+  color: #33272a;
+}
+
+p {
+  font-size: 1rem;
+}
+
+#btn {
+  background-color: #f0e3e7;
+  border: 0.07rem solid #33272a;
+  border-radius: 50%;
+  font-family: "MonteCarlo", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  min-width: 8vw;
+  height: auto;
+  padding: 0.7rem;
+}
+
+#btn:hover {
+cursor: url('Images/wand-click.PNG') 31 1, auto;
+}
+
+/* NAVIGATION */
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    padding-left: 2vw;
+    padding-right: 2vw;
+    height: 10vh;
+    top: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    z-index: 2;
+
+}
+
+#logo-img {
+  max-height: 10vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#logo-img-img{
+  max-height: 6.5vh;
+  height: auto;
+  cursor: url('Images/wand-click.PNG') 31 1, auto;
+}
+
+#logo {
+  font-size: 1.5em;
+  color: #33272a;
+  font-weight: 600;
+  cursor: url('Images/wand-click.PNG') 31 1, auto;
+  text-decoration: none;
+}
+
+#hamburger {
+  width: 35px;
+  height:30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  z-index: 2;
+}
+
+#hamburger span {
+  width: 100%;
+  height: 0.1rem;
+  background: #33272a;
+  transition: 0.3s;
+}
+
+#hamburger:hover {
+  cursor: url('Images/wand-click.PNG') 31 1, auto;
+}
+
+#menu {
+  display: none;
+  right: 0;
+  top: 10vh;
+  position: fixed;
+  width: auto;
+  background: rgba(255, 255, 255, 0.5);
+  border-bottom-left-radius: 2rem;
+  z-index: 3;
+}
+
+#menu ul {
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+#menu ul li {
+  width: 100%;
+  text-align: center;
+  color: #33272a;
+  margin-bottom: 1rem;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  display: block;
+  color: #33272a;
+  cursor: url('Images/wand-click.PNG') 31 1, auto;
+  padding: 0.5rem;
+}
+
+#menu ul li:hover{
+  text-decoration: underline;
+  text-underline-offset: 0.1rem;
+  text-decoration-color: #33272a;
+}
+
+#menu.active {
+  display: block;
+}
+
+/* SECTION 1 */
+
+#section1 {
+  width: 100%;
+  height: vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#section1 img {
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+#community1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+/* PRODUCTS SECTION */
+
+#products {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#confidence-card img{
+    width: 20vw;
+    height: auto;
+}
