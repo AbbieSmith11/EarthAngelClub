@@ -21,7 +21,7 @@ HTML, CSS, and JavaScript, the site offers free resources and inspiration to hel
 
 - **HTML5**
 - **CSS3**
-- **Vanilla JavaScript**
+- **JavaScript**
 - **GitHub Pages** for hosting
 
   
